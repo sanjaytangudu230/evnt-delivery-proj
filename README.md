@@ -1,9 +1,13 @@
 This is a simple event delivery system implemented in Go. This servie maintain FIFO and retries on delivery failures.
 
 Steps to Run the service:
+
  i)CLone the repository/ Download the zip file
+ 
  ii) Make sure docker is running
+ 
  iii) Open the project and go to terminal.
+ 
  iv) Run 'make deploy' command in termial.
 
 This service has been tested under good throughput using Apache Bench
