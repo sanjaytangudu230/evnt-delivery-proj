@@ -10,6 +10,6 @@ Steps to Run the service:
  
  iv) Run 'make deploy' command in termial.
 
-This service has been tested under good throughput using Apache Bench
+This service has been tested under good throughput using Apache Benchmark
 
 ![WhatsApp Image 2023-08-28 at 11 37 13](https://github.com/sanjaytangudu230/evnt-delivery-proj/assets/61742536/43f4f7bd-6070-4df4-b43f-0e116d21bdf9)
