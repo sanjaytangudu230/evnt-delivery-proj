@@ -1,0 +1,13 @@
+version: '3'
+services:
+  go-service:
+    image: event-delivery-app
+    ports:
+      - "8080:8080" # Expose your Go service's port
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379" # Expose Redis port
