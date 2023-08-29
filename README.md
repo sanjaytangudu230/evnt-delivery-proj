@@ -13,3 +13,12 @@ Steps to Run the service:
 This service has been tested under good throughput using Apache Benchmark
 
 ![WhatsApp Image 2023-08-28 at 11 37 13](https://github.com/sanjaytangudu230/evnt-delivery-proj/assets/61742536/43f4f7bd-6070-4df4-b43f-0e116d21bdf9)
+
+Curl to Ingest Event:
+
+curl --location 'http://localhost:8080/api/event-delivery/ingest-event' \
+--header 'Content-Type: application/json' \
+--data '{
+    "user_id" : "2345",
+    "payload": "dfghjk"
+}'
